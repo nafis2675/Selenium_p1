@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.id.bd.FirstAutomaion">
+      <class name="com.id.bd.LocatorsExp">
         <methods>
-          <include name="firstTest"/>
           <include name="start"/>
           <include name="close"/>
+          <include name="testLocators"/>
         </methods>
-      </class> <!-- com.id.bd.FirstAutomaion -->
+      </class> <!-- com.id.bd.LocatorsExp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
